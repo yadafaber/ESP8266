@@ -21,8 +21,8 @@
 /***************************
  * WIFI Settings
  **************************/
-const char* WIFI_SSID = "LovelandCreatorSpace2.4";
-const char* WIFI_PWD = "NotAVerySecurePassword";
+const char* WIFI_SSID = "Username";
+const char* WIFI_PWD = "Password";
 
 /*
 const char* WIFI_SSID = "COSMO";
@@ -34,7 +34,7 @@ const char* WIFI_PWD = "99luvsforpups";
  **************************/
 WiFiClient client;
 const char *host = "api.thingspeak.com";                  //IP address of the thingspeak server
-const char *api_key ="Z5T7VU6BWLQA9PNC";                  //Your own thingspeak api_key
+const char *api_key ="API Key";                  //Your own thingspeak api_key
 const int httpPort = 80;
 #define pin 14       // ESP8266-12E  D5 read emperature and Humidity data
 int temp = 0; //temperature
@@ -85,8 +85,8 @@ const int SDC_PIN = GPIO2
 // https://docs.thingpulse.com/how-tos/openweathermap-key/
 const boolean IS_METRIC = true;
 // Add your own thingpulse ID 
-String OPEN_WEATHER_MAP_APP_ID = "165c9bd9c32cba26c314c64ac2463104";
-String OPEN_WEATHER_MAP_LOCATION = "Zurich,CH";
+String OPEN_WEATHER_MAP_APP_ID = "Location ID";
+String OPEN_WEATHER_MAP_LOCATION = "City, ST";
 
 // Pick a language code from this list:
 // Arabic - ar, Bulgarian - bg, Catalan - ca, Czech - cz, German - de, Greek - el,
